@@ -22,6 +22,19 @@ java-decompiler.jar: Java archive data (JAR)
 
 `alias jd="java -cp '/Applications/IntelliJ IDEA.app/Contents/plugins/java-decompiler/lib/java-decompiler.jar' org.jetbrains.java.decompiler.main.decompiler.ConsoleDecompiler -dgs=true $1 $2"`
 
+
+```
+jd aaaa.jar decompile
+
+INFO:  Decompiling class org/apache/http/client/utils/URIBuilder
+INFO:  ... done
+INFO:  Decompiling class org/apache/http/impl/cookie/CookieSpecBase
+INFO:  ... done
+INFO:  Decompiling class org/apache/http/impl/execchain/ServiceUnavailableRetryExec
+INFO:  ... done
+INFO:  Decompiling class org/apache/http/impl/auth/SPNegoSchemeFactory
+```
+
 ## Windows OS Dir
 
 ....
