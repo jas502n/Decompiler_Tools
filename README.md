@@ -18,11 +18,9 @@ java-decompiler.jar: Java archive data (JAR)
 
 ## Windows OS Dir
 
-```
+....
 
-```
-
-#0x02 usage:
+# 0x02 usage:
 
 ![](./usage.png)
 ```
